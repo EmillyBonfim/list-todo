@@ -33,3 +33,74 @@ button:hover {
 button:hover > i {
     color: #FFF;
 }
+
+button i {
+    color:#102F5e;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input, select {
+    padding: 0.25rem 0.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+/* Todo Header */
+.todo-container {
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color: #FDFDFD;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.todo-container-header {
+    text-align: center;
+    padding: 0.1rem 1rem;
+    border-bottom: 1px solid #CCC;
+}
+
+/* Todo Form */
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #CCC;
+}
+
+#todo-form p,
+#edit-from p{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+}
+.form-control input {
+    margin-right: 0.3rem;
+}
+
+#cancel-edit-bnt {
+    margin-top: 1rem;
+}
+
+/* Todo toolbar */
+#toolbar {
+    padding: 1rem;
+    border-bottom: 1px solid #CCC;
+    display: flex;
+}
+
+#toolbar h4 {
+    margin-bottom: .5rem;
+}
+
+#search {
+    border-right: 1px solid #DDD;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+
+}
