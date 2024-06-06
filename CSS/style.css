@@ -57,9 +57,9 @@ input, select {
     border-radius: 15px;
 }
 
-.todo-container-header {
+.todo-container header {
     text-align: center;
-    padding: 0.1rem 1rem;
+    padding: 0 1rem 1rem;
     border-bottom: 1px solid #CCC;
 }
 
@@ -70,19 +70,20 @@ input, select {
 }
 
 #todo-form p,
-#edit-from p{
-    margin-bottom: 0.5rem;
+#edit-form p {
+    margin-bottom: .5rem;
     font-weight: bold;
 }
 
 .form-control {
     display: flex;
 }
+
 .form-control input {
     margin-right: 0.3rem;
 }
 
-#cancel-edit-bnt {
+#cancel-edit-btn {
     margin-top: 1rem;
 }
 
@@ -98,9 +99,10 @@ input, select {
 }
 
 #search {
-    border-right: 1px solid #DDD;
+    border-right: 1px solid #ddd;
     padding-right: 1rem;
     margin-right: 1rem;
     width: 65%;
-
+    display: flex;
+    flex-direction: column;
 }
